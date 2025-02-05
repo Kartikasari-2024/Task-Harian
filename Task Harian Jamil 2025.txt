@@ -1,0 +1,328 @@
+TASK 
+
+1. follow up untuk SA
+sa terakhir(data dari ko momon), reasen terakhir (reasen MRA, reason SALES)
+setelah di follow up dan di kasih reasen bakalan ilang
+https://apps.kartikasari.co.id/reportlist/report/REPORT_20200709131559 (DONE)
+
+
+2. Report Billing harian untuk close pkb dan seterusnya (DONE)
+3. Menambahkan form untuk sparepart KSC , data dari widya (ON GOING)
+	- Ambil sparepart yg sering di pakai KSC (DONE)
+	- Jika gak ada search by nama di barang/product (CANCEL)
+	- Insert Data Ke database (DONE)
+	- Report untuk data ksc (ON GOING)
+
+4. Suspek -> hanya nomor, nama, Alamat, Kota
+		setelah naik ke HOT PROSPEK baru isi form lengkap seperti biasanya
+		- CANCEL BY Pak Cahyo, dikarenakan data tersebut untuk profiling sales
+5. report untuk SM hari ini follow up atau input data apa aja, kegiatan, bisa di kasih note dan notif 
+		seperti pengajuan diskon (
+		- DONE untuk percakapan follow up 
+		- NOTIF KE RECIEVER DONE (Report data->page input data report->L643)
+		)
+6. ada bug di hot prospek gak muncul (DONE)
+7. plan harian yg suspect/ atau lain untuk harian (CANCEL gak jelas ini mau gimana)
+8. call follow up ke record timestamp (DONE)
+	- report DONE
+9. Tambahan demografi di detail cust di detail nya (hanya administrator dan sales yg bisa lihat, 
+	harus ubah di issales or admin di app.cs ) (DONE)
+10. Ganti SUSPECT JADI LEADS PAK CAHYO REQUEST 
+	- ganti all report suspect ke leads (DONE)
+	
+2024/11/07
+1. Menampilkan service range date terakhir di review pkb, semisal service nya SBE 
+	(kolum jenis service) DONE
+
+11. Create Github E-Ticketing (DONE)
+	Email Head Of KSM
+	- mrakartikasari3@gmail.com
+	- mbak dina pribadi email nya
+	- billingkartikasari@gmail.com
+	- coordinator KSC bagus, buat email dengan nomor bagus sendiri
+	- ksm.mondoroko.kabeng@gmail.com
+	- ksm.mondoroko.services@gmail.com
+	- ksm.hrd@gmail.com
+	- Kartikasaritoyota@yahoo.com (finance)
+
+2024/11/14
+12. Reminder STNK untuk 1 tahunan, satu minggu sebelumnya 14112024 DONE (14112024)
+13. Reminder dan follow up customer datang ke sales, tidak peduli siapapun yg booking (DONE)
+
+2024/11/15
+1. PUSH notif reminder stnk habis tahunan DONE 
+2. Check singkron DetailPiutang DONE
+3. Upload KSM Sales Tambahan form ksc DONE
+
+
+2024/11/16
+1. Pindahan all MRA IT Kabeng DONE
+2. Komputer Dimas ON GOING INSTALL ULANG
+3. Repo semua program ke github ON GOING
+4. Membuat format dan topic untuk pengajuan e ticketing DONE
+
+2024/11/18
+1. Tinta Printer HRD, Billing dan remote mondoroko komputer dimas
+2. Tarik data suspect prospect DONE
+3. Manipulasi data tradein pak dede DONE
+4. Pembuatan rule untuk task e-ticketing DONE
+
+
+2024/11/19
+1. Update sales tidak aktif (DONE)
+2. reportNew di manipulasi, jangan lupa di kembalikan lagi nanti dengan function yg asli (DONE)
+3. TARGET ALL query tambahan untuk range rata2 bulan setiap service (DONE)
+4. QUERY Notif ke sales customer datang (DONE)
+5. REPORT NOTIF SALES UNTUK FOLLOW UP (DONE)
+
+
+2024/11/20
+1. Check Renew Membership app store connect ( DONE )
+	- Number Card
+	- Card holder
+	- Exp Date
+	- Alamat 1
+	- Alamat 2 (Optional)
+	- Kota
+	- Provinsi
+	- Postal Code
+	- Phone
+2. Git ksm2internal dan yg lain ON GOING
+3. Pita DONE
+4. Tarik Data MRA dengan Keluhan SSC DONE
+5. Install Ulang pc fahri DONE
+
+
+2024/11/21
+1. Periksa Komputer billing-4 mati2 DONE
+2. query untuk leads yang dibutuhkan service DONE
+3. query 1390 n 1391 dengan penggabungan cabang DONE
+
+2024/11/22
+1. Aktifasi sales TO DONE
+2. Setting perkabelan MRA DONE
+3. Perubahan SBI dari tgl sikk / tgl bstb DONE 
+4. Push Github ksm mobile ios, ksm mobile, server ksm mobile DONE
+
+
+2024/11/23
+1. Cek Singkron Hardisk full (DONE)
+2. Ganti privasi and polisi (DONE)
+3. Pindahan IT DONE
+4. perbaikan printer HRD, harus bongkar sedot tinta, sudah di tukar (DONE)
+
+2024/11/25
+1. Gabungkan SBI ke reminder SBE (DONE)
+2. Pindahan MRA DONE
+3. Reset Printer BILLING (DONE)
+4. Perbaiki Driver PAJAK-2 DONE
+
+2024/11/26
+1. Gabungkan SBI ke Reminder SBE DONE
+2. Pembayaran CC App Connect tunggu 2 hari kerja (DONE)
+3. Kembalikan report ke asli, habis manipulasi untuk TAM ( DONE )
+4. Ganti tinta Admin DO DONE
+
+
+2024/11/28
+1. check App Connect Pembayaran DONE
+2. ubah query https://apps.kartikasari.co.id/custreport beda sama reportlist untuk calon pelanggan DONE
+3. Check notif Singkron untuk adzan dan quote sampai DESEMBER DONE
+4. Update ksm sales yang di ios, Waiting Review Dari App Store DONE
+
+
+2024/11/29
+1. Update ksm sales yang di ios, Waiting Review Dari App Store DONE
+2. Install Excel untuk erika chan DONE
+
+2024/11/30
+1. Update All altius KSM Mondoroko, inet server down ( DONE )
+2. Ip Printer antrian berubah2 terus (DONE)
+
+
+2024/12/02
+1. altius rosa error DONE
+2. Altius silvy finance out of memory, TUNGGU UPDATE KEDEPANYA (DONE)
+3. Check unit rangga tidak tersedia di ksm apps (DONE)
+
+2024/12/03
+1. Check Bug Pengajuan Diskon, keterngan terlalu panjang DONE 
+2. Printer pak deni gak mau keluar warna ON GOING
+3. Sales booking hanya bisa ngasih note, tidak bisa tgl booking,
+	nanti MRA ngecek No Telp Aktif, dan bisa bookingkan untuk tgl berapa
+	- Pencapaian MRA booking dimasukan ke sales juga( tergantung cust nya siapa) ON GOING
+	
+4. check data calon pelanggan sama data unit kok beda? ANSWER : Model Unit tidak di isi	
+	ketika input calon pelanggan DONE
+	
+
+2024/12/09
+1. update database Altius Sinkron, copi seluruh data MasterJual SO dan Barang DONE
+
+
+2024/12/10
+1. program ksm ganti rule booking 
+
+2024/1/13
+1. No Show dan Batal tarik data Done
+
+2024/12/14
+1. Install scanner di PAJAK-2
+
+
+2024/12/16
+1. Query Untuk Report Absensi DI APK Done
+2. Atur Jaringan Otoexpert
+
+
+2024/12/17
+1. Setting printer Dimas Done
+2. Query Pak Dede, ambil perjalanan leads sampai spk Done
+3. Menambahkan Batal by system pra-sbe DONE
+4. Update report outstanding pengajuan diskon, update query error DONE
+
+2024/12-18
+1. Verifikasi data mbak dina DONE
+2. Update penambahan untuk query add booking, di tambahi dengan update pra booking dari sales DONE
+3. Adding ICON di Dashboard ksm sales untuk icon spk registered ON GOING
+
+
+2024/12/23
+1. Upload program android ksm sales
+
+2024/12/24
+1. Update untuk IOS, program ios xamarin dan xcode corrupt
+
+2024/12/26
+1. Tambahan Query untuk reminder SBE di tambahi tgl sikk DONE
+2. Makro untuk menambahkan master norangka DONE
+
+2024/12/27
+1. inject absensi nya ce X
+2. Menambahkan functual di import, dan menampilkan last SA di data service berkala DONE
+
+2024/12/30
+1. SM ke atas, klasement bstb sama spk + reminder sbe, di tambahin filter spv 
+	filter by column DONE
+2. Absensi Error sudah DONE
+3. inject data SSC manual dengan query Done
+4. penambahan SSC di review pkb mbak dina DONE
+
+2024/12/31
+1. Query untuk perubahan report booking show/tidak show/tidak DONE
+2. Training untuk sales baru DONE
+3. Import SSC ON GOING
+
+2025/01/04
+1. ubah query kedatangan customer booking DONE
+2. ubah query booking perjabatan dan detailnya DONE 
+3. cek keseluruhan booking report ON GOING 
+
+2025/01/06
+1. perubahan query untuk pra sbe DONE
+2. benerin bug untuk pra service ke booking, ksc gak bisa di ganti DONE
+3. yg tidak ada nokanya nanti masih bingung DONE
+
+
+2025/01/07
+1. Update Aplikasi android DONE
+
+2025/01/08
+1. SSL Apps.kartikasari co id Done
+2. Tutorial KSM Sales Done
+3. Build Ios Update KSM SALES ON GOING
+
+2025/01/09
+1. Check KSM Customer Forgot password tidak bisa
+
+2025/01/10
+1. SSL Kartikasari.co.id DONE
+2. Upload KSM sales penambahan tgl booking ANDROID DONE
+3. Uplaod KSM SAles IOs 
+
+
+2025/01/13
+1. Update Query SSL DONE
+2. Query ko reymond spk DONE
+3. upload ios update ksm sales DONE
+
+
+2025/01/14
+1. Test API LOAD dengan python untuk kirim emaiL Done
+2. MAKRO SSC ke altius Done
+3. Setting Port untuk api load baru Done
+
+2025/01/15
+1. Update Program KSM SALES Done
+
+
+2025/01/16
+1. Update Program ksm sales Done
+2. Perbaikan query reminder pra booking DONE
+3. Api Load baru untuk sending notif ke MRA DONE
+
+2025/01/17
+1. Program Api Load
+2. Query Booking by bstp DONE
+
+2025/01/18
+1. Prgoram api load
+2. Query Booking by bstp DONE
+3. perbaikan printer macet do DONE
+
+2025/01/20
+1. Lanjut api load Notif RUNNING ON SERVER DONE
+2. Ko Reymond query DONE
+3. DAta Unit Calon Pelanggan prospek nya kok gak ada yg di spv DONE
+
+
+2025/01/21
+1. Query booking by bstb tambahan nama cust Done
+2. Perbaikan komputer SA wawan dan antrian tambah account Done
+3. service printer do DONE
+4. Perbaikan query unit calon palanggan Done
+5. Pembenahan ADD CUST APK SALES di lead gakbisa masukan nama unit DONE
+6. Ko Reymond FOTO ketika SBI
+7. Ralin, jika ksc di batasi tgl booking
+8. report unit sama calon pelanggan leads tidak sama di api/reportnew DONE
+
+2025/01/23
+1. hilangkan PDI pada notif customer datang service DONE
+2. Update IOS ksm sales baru DONE
+
+2025/01/24
+1. Komputer mas dani (PSU RUSAK) DONE
+2. Update Query Reminder Pra SBe DONE
+
+
+2025/01/25
+1. tarik data ko reymon ksmcust matching sama bstb Done
+2. query spv harian status pelanggan DONE 
+
+2025/01/30
+1. query detail spv harian 
+2. Notif STNK Jadi 
+3. Ada Waktunya service di ksm customer
+4. Check Insert booking tidak bisa DONE (di bilangin gak bisa dalam sehari gak percaya)
+
+2025/01/31
+1. migrasi domain ke yang baru DONE
+
+2025/02/01
+1. query notif stnk/bpkb ke custo Done
+2. Pindah pc di mondoroko Done
+
+2025/02/03
+1. update apk outsourching BackEnd dan FrontEnd PINDAH KE VUE JS, karena SOURCHE GAK ADA DONE
+2. Penambahan query pada cust by pma DONE
+3. Alamat ksm sales di required aja
+
+2025/02/04
+1. cek notif DONE
+2. pindah lokasi lumajang DONE
+3. cek apk create file TAM DONE 
+
+
+2025/02/05
+1. Update database altius DONE
+2. Setting dan upload aplikasi ke play store Done
