@@ -1,0 +1,240 @@
+[2025]
+
+
+[03 Januari]
+Penambahan Kontrak Habis Aplikasi
+Digunakan Untuk Warning HRD jika ada karyawan dengan kontrak yang sudah habis ketika membuka Form Data Karyawan
+Write Code dan Penambahan Form di VB
+
+[04 Januari]
+Pembuatan Query Database untuk mengambil data karyawan dengan jumlah kontrak kosong
+Query Select, Query Insert, Query Update, Query Delete
+Request Pak Danang ubah aplikasi PSOFT Logistik dari penamaan Form Pasang Anti Karat menjadi Form Pasang Aksesoris
+Pindah printer IT ke STNK1 karena printer rusak
+
+[06 Januari]
+Cleaning Tinta Printer karena warna tidak muncul lauren
+konek printer lauren dari mbak ita
+Instal ulang pc ce coryn karena pc menangis / BSOD dan langsung kirim ke Mondoroko
+Bonkar PC admin (Mbak Nanik, Mbak Feni, Mas Agus) Kirim ke Mondoroko. dan Pasang di Mondoroko
+
+[07 Januari]
+Bug Aplikasi KSM Insentif export to excel Database Kurang Reset waktu export 2 kali file atau lebih mengakibatkan form lag
+Pembenahan update aplikasi PSOFT Logistic karena tidak detect folder psoft di datacenter
+Penambahan comment pada PSOFT Logistic untuk tau maksud kode. karena kode sebelumnya tidak memiliki komen
+Mempelajari struktur dan alur PSOFT Logistic untuk mengetahui arah program bekerja untuk next request
+Input data Hari libur ksm insentif
+bug pada aplikasi ksm notif ( jika Sudah kadaluarsa masih terkirim, Notifikasi Belum terkirim untuk > H-3 Kadaluarsa)
+
+
+[08 Januari]
+Penambahan form pilih cabang pada saat setelah login. dikhususkan untuk mendeteksi cabang (pusat / mondoroko) dan sortir stok unit
+Penambahan kolom catatan PSOFT di penjualan BSTB
+tambah kolom status unit PSOFT LGS
+Update Aplikasi PSOFT Logistic ke 1.42 dengan release notes
+• Perubahan Pasang Anti Karat Menjadi Pasang Aksesoris
+• Penambahan Tombol Export to Excel Custom Pada Stok Rekap
+
+
+[09 Januari]
+Lanjut form pilih cabang. lama karena kode terlalu lamaa.. VB6
+Query Database stok. penambahan setting cabang untuk mendeteksi pilihan cabang by user
+1. Query WS
+2. Query MDP
+3. Query Total
+Penambahan label di main menu. informasi cabang terpilih
+Update Aplikasi PSOFT Logistic ke 1.43 dengan release notes
+• Penambahan Menu Show Rekap Stok MDP pada Form Stok
+• Penambahan Form Report Stok MDP
+
+[10 Januari]
+Planning tambah otomatis update di PSOFT Logistic
+Ganti telepon crc karena kabel mati
+Query show rekap MDP all
+
+[11 Januari]
+Form Rekap MDP (Query Done)
+Hapus Form Report Checklog [Pindah ke Report Absensi]
+Hapus Form Jadwal Otto Xpert [Tidak Dipakai]
+Hapus Form Absen Otto Xpert [Tidak Dipakai]
+Hapus Tombol Jadwal OttoXpert di Menu>Report>OttoXpert dan di Absensi>OttoXpert
+Hapus Tombol Menu Checklog di Menu>Report>Checklog
+Hide Manu Report BPJS [Jarang Dipakai]
+
+[13 Januari]
+Penambahan FORM Denda Absen Pagi Pada KSM Insentif [HRD]
+- Tambah Tombol Denda Apel di Data Absensi
+- Tambah Form [frmAbsensiDendaApel]
+- Design Form Absensi Denda Apel
+- Ganti Nama Object
+- Tambah Coding setiap Object di Denda Apel
+Query Denda Apel [Show Data Karyawan dengan KodeStaff dan KodeEmployee]. Tambah ke DataGridView
+Save Denda. 
+- Hapus Data Absen Fingerspot [Data dari absen finger, biasa diimport waktu CutOff], hapus Data Absen Aplikasi [di Cloud]
+- Insert ke History Denda Absen sebagai Report Laporan Per Bulan
+Pasang PC Admin [Feni, Agus, Nanik] dari Mondoroko ke KS
+
+[14 Januari]
+Masih Progress di Form Denda Absen Pagi
+Form Denda, Design Form, Ganti Nama Object, Tambah Tombol di Form Absensi [Done]
+Query Show Denda [Done]
+Query Delete Absen Dari Data Absen Finger dan Aplikasi [On Progress]
+Query Insert Aplikasi Ke History Absen [On Progress]
+
+[15 Januari]
+Form Denda All Done
+Pembetulan Printer Kasir Error [Tidak Bisa Print] Solusi Instal Ulang Driver Printer
+Pembetulan Kode Pengajuan Izin Tidak Sesuai [Dikarenakan Kesalahan Query Ambil Kode]
+Pada menu Report Form Izin, Menu Kirim Notif Akan Disable ketika Pengajuan Izin Kadaluarsa
+Pemberian Enkripsi Password di Form Denda
+Metode Show Absensi dan Show Cheklog menjadi Satu Kode dan Query Show di Form Absensi dan Form Calculate Absensi [Meningkatkan Kecepatan Load]
+Update Aplikasi KSM Insentif dari 1.14 > 1.15
+Release Notes :
+• Penambahan Form Denda Absen Apel Pagi*
+• Penambahan Tombol Denda Apel di Data Absensi*
+• Penambahan Tab Denda Apel di Report Absensi dan Report Calculate Absensi*
+• Penghapusan Form Report Checklog
+• Penghapusan Form Report Jadwal Otto Expert
+• Penghapusan Form Absen Jadwal Otto Expert
+• Penghapusan Button Jadwal Otto Expert Pada Form Data Absensi
+• Penghapusan Menu Report Jadwal Otto Expert Pada Main Menu
+• Penghapusan Menu Report Checklog Pada Main Menu
+• Penonaktifan Menu Report BPJS Pada Main Menu
+• Penonaktifan Form Report BPJS
+• Pembetulan Menu Kirim Ulang Notifikasi & Edit Data Pada Report Form Izin Pengajuan. Menu Akan Mati Saat Pengajuan Kadaluarsa*
+• Pembetulan Kode Pengajuan Izin yang Tidak Sesuai*
+• Pembetulan BUG dan Error di beberapa Form	
+• Peningkatan Security Aplikasi Dengan Enkripsi Password
+• [System] Penghapusan Code Pada Data Absensi Mengenai Jadwal Otto Expert
+• [System] Penghapusan Alokasi Jadwal Otto Expert Pada Report Calculate Absensi
+• [System] Show Absensi & Checklog Menjadi Satu Waktu Pada Report Absensi Dan Report Calculate Absensi
+
+(*) Tidak Semua User Dapat Melihat Form / Perubahan
+
+[16 Januari]
+Pasang PC Faisal
+Altius Faisal Error [IP Database Belum Ganti Karena Pindahan Dari Mondoroko] Done
+Internet PC Kasir Tidak Nyala [Karena IP dan PC Name Crash dengan PC Mondoroko]
+Pembuatan PSOFT Logistic dengan Bahasa Program Baru [UI sama, Database sama, Query sama] Hanya Ganti Bahasa Program VB6 ke VB. NET. Difungsikan agar jika ada penambahan fitur atau bug di Aplikasi lama, dapat diperbaiki secara cepat
+Progress Buat Form di PSOFT Logistc VB.NET [Semua Form]
+Form Login, Main Done. Untuk Login Aplikasi dan Management Form Aplikasi
+
+[17 Januari]
+Progress PSOFT Logistic VB .NET
+- Form Setting, Prosedur, Fungsi Kode [Done]
+- Form Setting, Query [OnGoing]
+- Form User Application, Prosedur, Fungsi, Kode, Query [OnGoing]
+- Form User, Prosedur, Fungsi, Kode, Query [OnGoing]
+- Form Cabang, Prosedur, Fungsi, Kode, Query [OnGoing]
+- Form Dealer, Prosedur, Fungsi, Kode, Query [OnGoing]
+
+[18 Januari]
+Progress PSOFT Logistic VB .NET
+- Form Setting, Query [Done]
+- Form User Application, Prosedur, Fungsi, Kode, Query [Done]
+- Form User, Prosedur, Fungsi, Kode, Query [Done]
+- Form Cabang, Prosedur, Fungsi, Kode, Query [Done]
+- Form Dealer, Prosedur, Fungsi, Kode, Query [Done]
+- Form Laporan Permohonan Transfer Unit, Prosedur, Fungsi, Kode, Query [OnGoing]
+
+[20 Januari]
+Progress PSOFT Logistic VB .NET
+- Form Laporan Permohonan Transfer Unit, Fungsi, Query [Done]
+- Form Laporan Permohonan Transfer Unit, Prosedur, Kode [OnGoing]
+- Form Laporan Permohonan Gesekan Noka, Prosedur, Fungsi, Kode, Query [OnGoing]
+- Form Laporan Permohonan Aksesoris, Prosedur, Fungsi, Kode, Query [OnGoing]
+
+[21 Januari]
+Progress PSOFT Logistic VB .NET
+- Form Laporan Permohonan Transfer Unit, Prosedur, Kode [Done]
+- Form Laporan Permohonan Gesekan Noka, Prosedur, Fungsi, Kode, Query [Done]
+- Form Laporan Permohonan Aksesoris, Prosedur, Fungsi, Kode, Query [Done]
+- Form Laporan Outstanding Penjualan Unit, Prosedur, Fungsi, Kode, Query [On Going]
+
+[22 Januari]
+Ganti tinta printer di AdminDO dan STNK
+Detail : HITAM 1, KUNING 1, BIRU 1, MERAH 1 STNK, HITAM 1 ADMIN DO
+Progress PSOFT Logistic VB .NET
+- Form Laporan Outstanding Penjualan Unit, Prosedur, Fungsi, Kode, Query [Done]
+- Form Outstanding Pembelian Prosedur, Fungsi, Kode, Query [OnGoing]
+
+[23 Januari]
+Detail : HITAM 1, KUNING 1, BIRU 1, MERAH 1 STNK, HITAM 1 ADMIN DO
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Pembelian Query [Done]
+- Form Outstanding Pembelian Prosedur, Fungsi, Kode [OnGoing]
+
+[24 Januari]
+CutOff Absensi
+Import Excel Absen Finger ke Database
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Pembelian Prosedur, Fungsi, Kode [OnGoing]
+- Set Ketarangan Form, Prosedur, Fungsi, Kode, Query [OnGoing]
+- Clear Keteragnan Prosedur, Query [OnGoing]
+- Show History Follow Up Form, Prosedur, Fungsi, Kode, Query [OnGoing]
+- Export to Excel All, Fungsi [OnGoing]
+- Export to Excel Selected Fungsi, Kode [OnGoing]
+- Show Info Sales, SPV, AdminDO Kode [Done]
+Instal PC AdminDO [Kemungkinan Virus] [Feni]
+
+[25 Januari]
+Instal PC AdminDO [Kemungkinan Virus] [Lauren, Agus, Ita]
+Scan DataCenter [Off Sementara]
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Pembelian Prosedur, Fungsi, Kode [OnGoing]
+- Set Ketarangan Form, Prosedur, Fungsi, Kode, Query [OnGoing]
+- Clear Keteragnan Prosedur, Query [Done]
+- Show History Follow Up Form, Prosedur, Fungsi, Kode, Query [Done]
+- Export to Excel All, Fungsi [Done]
+- Export to Excel Selected Fungsi, Kode [Done]
+
+[27 Januari]
+Progress Scan Datacenter [OnGoing]
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Pembelian Prosedur, Fungsi, Kode [Done]
+- Set Ketarangan Form, Prosedur, Fungsi, Kode, Query [Done]
+- Form Outstanding Penjualan Prosedur, Fungsi, Kode [OnGoing]
+
+[28 Januari]
+Instal Ulang PC Desain [Soba] [Kemungkinan Virus]
+Progress Scan Datacenter [Done]
+Tambah Kolom NOKA di Export to Excel Custom PSOFT Logistic VB6 dari Bu Maria
+Pergantian Jam Istirahat Hari Jumat [Sebelumnya 11:30 Hanya Jenis Kelamin L dan Agama Islam] menjadi Semua Karyawan
+Update Aplikasi KSM Insentif dari 1.15 > 1.15.1
+Release Notes :
+• Pergantian Jam Denda Apel dari Jam 7:15 Menjadi 7:00
+• Pembetulan BUG Pencarian Report Absensi*
+• Penambahan Sheet "Denda Apel" Pada Export to Excel Absensi*
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Penjualan Prosedur, Fungsi, Kode, Query [OnGoing]
+- Set Matching Unit Prosedur, Fungsi, Kode, Query [OnGoing]
+- Batal Prosedur, Fungsi, Kode, Query [OnGoing]
+- Expor to Excel All Fungsi [OnGoing]
+
+[29 Januari]
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Penjualan Prosedur, Fungsi, Kode, Query [OnGoing]
+- Set Matching Unit Prosedur, Fungsi, Kode, Query [OnGoing]
+- Batal Prosedur, Fungsi, Kode, Query [Done]
+- Expor to Excel All Fungsi [Done]
+
+[30 Januari]
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Penjualan Prosedur, Fungsi, Kode, Query [OnGoing]
+- Set Matching Unit Prosedur, Fungsi, Kode, Query [OnGoing] [Query Suggest & Non Suggest, Form Matching]
+- Batal Prosedur, Fungsi, Kode, Query [Done]
+- Expor to Excel All Fungsi [Done]
+
+[31 Januari]
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Penjualan Prosedur, Fungsi, Kode, Query [OnGoing]
+- Set Matching Unit Prosedur, Fungsi, Kode, Query [OnGoing] [Query Suggest & Non Suggest, Form Matching]
+- Matching from Suggest dan Non Suggest [OnGoing] 
+- Peralihan IP Address Seluruh Aplikasi Desktop [OnGoing]
+Update Aplikasi KSM Insentif dari Versi 1.15.1 > 1.15.2
+Release Notes : 
+• [System] Pergantian IP Address Untuk Koneksi ke Cloud
+• Penambahan Tab Apel Pada Report Calculate Absensi*
+• Penghapusan Search Pada Calculate Absensi*
+
+(*) Tidak Semua User Dapat Melihat Form / Perubahan
