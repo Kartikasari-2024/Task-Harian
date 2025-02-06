@@ -1,0 +1,29 @@
+TASK ADIT IT 
+[Februari 2025]
+
+[03 Februari]
+Progress PSOFT Logistic VB .NET
+- Form Outstanding Penjualan Prosedur, Fungsi, Kode, Query [Done]
+- Set Matching Unit Prosedur, Fungsi, Kode, Query [Done]
+- Matching from Suggest dan Non Suggest [Done] 
+- Peralihan IP Address Seluruh Aplikasi Desktop [OnGoing]
+
+[04 Februari]
+Progress PSOFT Logistic VB .NET
+Pemisahan Outstanding Penjualan Pending dari Outstanding Penjualan Batal, Procedure, Query Only Pending, Query Only Batal [OnGoing]
+Peralihan IP Address Seluruh Aplikasi Desktop [Done]
+
+[05 Februari]
+Meeting IT
+Pembuatan PTT Form Issue IT Manual dan GitHub
+Update Aplikasi Dari Versi 1.15.2 ke 1.15.3
+• Pembetulan BUG Kirim Notif di Pengajuan Form Izin 
+- [Error Aplikasi Not Respon ketika kirim notif izin yang ke 3 dalam 1 sesi. Tambah System.Abort setelah selesai kirim notif]*
+
+(*) Tidak Semua User Dapat Melihat Form / Perubahan
+
+
+[06 Februari]
+Pemisahan Outstanding Penjualan Pending dari Outstanding Penjualan Batal, Procedure, Query Only Pending, 
+Query Only Batal [Done]
+Troubleshoot Sinkron Data Cloud ke Lokal Tidak Berjalan dari KSM Singkron
