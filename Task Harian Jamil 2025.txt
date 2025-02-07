@@ -326,3 +326,14 @@ https://apps.kartikasari.co.id/reportlist/report/REPORT_20200709131559 (DONE)
 2025/02/05
 1. Update database altius DONE
 2. Setting dan upload aplikasi ke play store Done
+
+2025/02/06
+1. Update Sinkron Data query DONE
+2. Query leasing follow up ON GOING
+
+
+2025/02/06
+1. Query Leasing dan menambahkanreport DONE
+2. isi tinga DONE
+3. update notif pra sbe ON going DONE
+4. Menambahkan form untuk export, import data FU leasing dan replacement sales by noka ON GOING
